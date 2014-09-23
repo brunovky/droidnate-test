@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droidnate REST"
+        android:textColor="#696969"
+        android:textSize="32dp"
+        android:typeface="sans"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btInsertUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#1E90FF"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:background="@android:color/transparent"
+        android:text="Insert User" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BEBEBE"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp" 
+        />
+    
+    <Button
+        android:id="@+id/btUpdateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#1E90FF"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:background="@android:color/transparent"
+        android:text="Update User" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BEBEBE"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp" 
+        />
+    
+    <Button
+        android:id="@+id/btDeleteUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#1E90FF"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:background="@android:color/transparent"
+        android:text="Delete User" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BEBEBE"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp" 
+        />
+    
+    <Button
+        android:id="@+id/btFindUserById"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#1E90FF"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:background="@android:color/transparent"
+        android:text="Find User By Id" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BEBEBE"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp" 
+        />
+    
+    <Button
+        android:id="@+id/btFindAllUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#1E90FF"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:background="@android:color/transparent"
+        android:text="Find All Users" />
+
+</LinearLayout>

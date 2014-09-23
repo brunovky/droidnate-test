@@ -28,8 +28,13 @@
 		<dependency>
 			<groupId>com.brunooliveira.droidnate</groupId>
 			<artifactId>droidnate</artifactId>
-			<version>1.0</version>
+			<version>2.0-SNAPSHOT</version>
 			<type>apklib</type>
+		</dependency>
+		<dependency>
+			<groupId>org.roboguice</groupId>
+			<artifactId>roboguice</artifactId>
+			<version>2.0</version>
 		</dependency>
 	</dependencies>
 
